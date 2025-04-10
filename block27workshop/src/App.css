@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+html {
+  background: linear-gradient(to bottom, #211F1F, #002A54);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +43,29 @@
 
 .read-the-docs {
   color: #888;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #ffffff;
+}
+
+label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: #FFC906;
+  color: #002A54;
+}
+
+button:hover {
+  color: #002A54;
+  background-color: #ba9511;
+  transition-duration: 1s;
 }
